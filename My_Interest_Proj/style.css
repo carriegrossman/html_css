@@ -1,0 +1,44 @@
+h1{
+    color:mediumturquoise;
+    text-decoration:underline;
+    text-align: center;
+}
+h2{
+    color:lightskyblue;
+    text-decoration:underline;
+
+}
+h3{
+    color:lightpink;
+    text-decoration:underline;
+    
+}
+section {
+    padding:10px;
+    border:ridge;
+    border-radius:10px;
+    background:mistyrose;
+    
+}
+p { text-indent: 2em; }
+.additional-info {
+    background:cornflowerblue;
+    border:1px dashed palegreen;
+}
+.second-class {
+    color: white;
+}
+.third-class {
+    background: mediumturquoise;
+    padding:2px;
+}
+
+section .additional-info{
+    border: 5px solid;
+}
+.main{
+    background:peachpuff;
+}
+.section:hover {
+    background:royalblue:
+}
