@@ -15,6 +15,7 @@
                 background:fuchsia;
                 padding:10px 20px;
                 margin: 20px 100px;
+                display: flex;
                 
             }
             span {
@@ -28,6 +29,22 @@
                 font-size:2em;
                 border-radius:6px;
             }
+            .container {
+                display: flex;
+                justify-content: space-evenly;
+                background:cyan;
+                margin: 10px;
+            }
+            .spot {
+                font-size: medium;
+                background: cornsilk;
+                padding: 10px;
+                margin: 10px;
+            }
+            .spot:hover {
+                border: darkorchid;
+            }
+    
         </style>
     </header>
 
@@ -41,5 +58,16 @@
             <label>My Input</label>
             <input placeholder="Write something here."/>
         </div>
+
+        <div class="container">
+            <div class="spot">Spot 1</div>
+            <div class="spot">Spot 2</div>
+            <div class="spot">Spot 3</div>
+            <div class="spot">Spot 4</div>
+            <div class="spot">Spot 5</div>
+            <div class="spot">Spot 6</div>
+            <div class="spot">Spot 7</div>
+        </div>
+
     </body>
 </html>
